@@ -1,9 +1,8 @@
 import React from 'react'
+import { AppRouter } from './Router/AppRouter';
 
 export const PortafolioApp = () => {
     return (
-        <div>
-            <h1>Andres Wellmann</h1>
-        </div>
+        <AppRouter />
     )
 }
